@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\d-CNhRrkx7UGjMLwlvTrm7CksU09wzayEM-QZ0c3_Uo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pevmGh2krwsed63QSmBhNSoLSD6jz3Pn37ZtCYiPAvI=.hash",
       "Source": "C:\\Users\\mattf\\source\\repos\\StonkMarketMachine\\StonkMarketMachine\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\StonkMarketMachine.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/StonkMarketMachine.dll.gz"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uCjK-9UbkxY2OGVQvi0uru3hQnIgzlmz_6gf1gMKNXo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7P_5_lLfh3clnVOA6WLpMIbw0W2qS4cBNQ532WjPAR0=.hash",
       "Source": "C:\\Users\\mattf\\source\\repos\\StonkMarketMachine\\StonkMarketMachine\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\StonkMarketMachine.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/StonkMarketMachine.pdb.gz"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zH6dRO43jstNMeRXkgqLMMn6RfC27bi3Xa6cYu4Sp04=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pt8Eh7YSNe3e9hyTaMjW-3r0UlXaE0kB9-YRWQBd3rM=.hash",
       "Source": "C:\\Users\\mattf\\source\\repos\\StonkMarketMachine\\StonkMarketMachine\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

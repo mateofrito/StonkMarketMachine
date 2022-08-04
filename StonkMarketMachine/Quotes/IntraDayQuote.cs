@@ -30,7 +30,7 @@ namespace StonkMarketMachine.Quotes
             using var reader = new StreamReader(stream);
             using var json = new JsonTextReader(reader);
             JObject jObject = _serializer.Deserialize<JObject>(json);
-            string derp = "derp";
+            
             return jObject;
 
         }

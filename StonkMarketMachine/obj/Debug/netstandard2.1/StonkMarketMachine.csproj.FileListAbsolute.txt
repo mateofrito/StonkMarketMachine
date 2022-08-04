@@ -362,6 +362,6 @@ C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\nets
 C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\compressed\_framework\_bin\Newtonsoft.Json.dll.gz
 C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.CSharp.dll.br
 C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\compressed\_framework\_bin\Newtonsoft.Json.dll.br
-C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\integrity\d-CNhRrkx7UGjMLwlvTrm7CksU09wzayEM-QZ0c3_Uo=.hash
-C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\integrity\uCjK-9UbkxY2OGVQvi0uru3hQnIgzlmz_6gf1gMKNXo=.hash
-C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\integrity\zH6dRO43jstNMeRXkgqLMMn6RfC27bi3Xa6cYu4Sp04=.hash
+C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\integrity\pevmGh2krwsed63QSmBhNSoLSD6jz3Pn37ZtCYiPAvI=.hash
+C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\integrity\7P_5_lLfh3clnVOA6WLpMIbw0W2qS4cBNQ532WjPAR0=.hash
+C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachine\obj\Debug\netstandard2.1\integrity\pt8Eh7YSNe3e9hyTaMjW-3r0UlXaE0kB9-YRWQBd3rM=.hash
