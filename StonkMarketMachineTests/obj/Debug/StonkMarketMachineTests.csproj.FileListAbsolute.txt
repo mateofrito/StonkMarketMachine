@@ -1,0 +1,2 @@
+C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachineTests\obj\Debug\StonkMarketMachineTests.csprojAssemblyReference.cache
+C:\Users\mattf\source\repos\StonkMarketMachine\StonkMarketMachineTests\obj\Debug\StonkMarketMachineTests.csproj.CoreCompileInputs.cache

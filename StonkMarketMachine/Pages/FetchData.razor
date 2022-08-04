@@ -1,0 +1,63 @@
+@page "/fetchdata"
+@using StonkMarketMachine.Quotes
+@inject I_IntraDayQuote IntraDayQuote
+@using Newtonsoft.Json.Linq; 
+
+
+@if (Quote == null)
+{
+    <p>Loading quote...</p>
+}
+
+
+            <h1>IBM</h1>
+            <span>@Quote</span><br />
+            <span>@LastRefreshed</span>
+
+     
+
+
+@if (!string.IsNullOrEmpty(Error))
+{
+    <p>@Error</p>
+}
+
+@code{
+    public string Quote { get; set; }
+    public string LastRefreshed { get; set; }
+    public string Error { get; set; }
+    private JObject jObject { get; set; }
+
+
+    private string GenerateIntraDayEndPoint()
+    {
+        //string _key = System.Environment.GetEnvironmentVariable("ALPHAVANTAGE_TOKEN");
+        string _key = "EXGBU46FGX9CDJ24";
+        string symbol = "IBM";
+        string interval = "5";
+        string _endpoint = "TIME_SERIES_INTRADAY&symbol=" + symbol + "&interval=" + interval + "min&apikey=" + _key + "&datatype=json&output_size=compact";
+        return _endpoint;
+
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            string _endpoint = GenerateIntraDayEndPoint();
+            jObject = await IntraDayQuote.GetData(_endpoint);
+            GetQuote(jObject);
+            //Quote = await IntraDayQuote.GetIntraDayQuote();
+        }
+        catch (Exception e)
+        {
+            Error = e.Message;
+        }
+    }
+
+    private void GetQuote(JObject jObject)
+    {
+        LastRefreshed = (string)jObject["Meta Data"]["3. Last Refreshed"];
+        Quote = (string)jObject["Time Series (5min)"][LastRefreshed]["1. open"];
+    }
+}
