@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "StonkMarketMachine.dll": "sha256-pevmGh2krwsed63QSmBhNSoLSD6jz3Pn37ZtCYiPAvI=",
+      "StonkMarketMachine.dll": "sha256-wKcRyARMXfRWQ0JWXk2sqisWUVN8byv\/aV9nMWrGk18=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-Bs1Wrmh4ex9dTEIT0yCRF52N\/wOmsBDt457BHr0\/ssM=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -61,7 +61,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "StonkMarketMachine.pdb": "sha256-7P+5+lLfh3clnVOA6WLpMIbw0W2qS4cBNQ532WjPAR0="
+      "StonkMarketMachine.pdb": "sha256-qXbcWziokrbYb3by1LDXV+iA9guOAH\/PBuWgz6HAntQ="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",
